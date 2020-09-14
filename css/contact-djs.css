@@ -1,0 +1,35 @@
+
+/* Form de contacto para DJs */
+.con-djs {padding:30px 25px 10px; min-height:300px; background:#fff; color:#555;}
+
+.con-djs h2 {margin:10px 0 20px 0; text-align:left; font-size:20px; line-height:25px; color:#00ADE1;}
+
+.con-djs form {width:100%; font-size:14px;}
+.con-djs .frm-grp {padding:0 0 20px 0;}
+
+.con-djs label {display:block; margin:0 0 5px 0; line-height:1; font-weight:600;}
+
+.con-djs input, .con-djs textarea {
+	width:100%; padding:8px; margin:0; background:#f2f2f2; border:none;
+	font-family:'Open Sans', sans-serif; font-size:13px; color:#555; outline:none;
+}
+.con-djs input:focus, .con-djs textarea:focus {color:#000;}
+
+.con-djs button { display:block; outline:none;
+	margin:0; padding:10px 20px; width:auto; background:#00ADE1; color:#fff; font-family:'Gotham'; font-weight:normal; font-size:16px; letter-spacing:1px;
+	-webkit-transition: background 0.3s, color 0.3s; transition: background 0.3s, color 0.3s;
+}
+
+.djs-err-msg {font-size:13px; line-height:1.5; color:#00ADE1; display:none;}
+
+#djs-sent-msg {padding-bottom:20px; font-size:16px; line-height:3; display:none;}
+
+
+/* Ajusto el boton cerrar del colorbox */
+.djs-cbox #cboxClose {top:0; right:0; left:auto; background:#00ADE1; width:30px; height:30px; line-height:30px;}
+.djs-cbox #cboxClose:hover {background:#282B30; color:#fff;}
+
+
+@media (max-width:480px) {
+	.con-djs h2 {font-size:18px;}
+}

@@ -1,0 +1,48 @@
+
+.pnl {}
+.pnl.goes-in {left:0; z-index:601;}
+.pnl--radio   	  {position:fixed; top:150px; left:-270px; z-index:600; width:270px; height:35px; padding:0 9px; background:#fff; color:#555; transition:left 0.3s;}
+.pnl--contact-mob {position:fixed; top:195px; left:-270px; z-index:600; width:270px; height:35px; padding:0 9px; background:#fff; color:#555; transition:left 0.3s;}
+.pnl--contact 	  {position:fixed; top:0; left:-450px; bottom:0; z-index:600; width:450px; padding:40px; background:#fff; color:#555; transition:left 0.3s;}
+
+.pnl__tab		  {position:absolute;right: -50px;display:block;width:62px;height:35px;border-radius:0 8px 8px 0;background-image:url(../img/bg-tabs.gif);background-repeat:no-repeat;background-color: #fffffff5;text-indent:-999em;}
+.pnl2	  {background-image:url(../img/bg-tabs2.png); background-repeat:no-repeat;}
+.tab--radio		  {top:0px; background-position:left -3px;}
+.tab--contact-mob {top:0px;background-position: left -42px;}
+.tab--contact 	  {top:195px; background-position:left -42px;}
+
+.pnl__title {color:#B70948; text-align:left; line-height:1;}
+.pnl__title a {color:#B70948;}
+.pnl--radio .pnl__title {margin:0; font-size:19px; line-height:35px;}
+.pnl--contact .pnl__title {margin:0 0 30px 0; font-size:30px;}
+.pnl--contact-mob .pnl__title {margin:0; font-size:19px; line-height:35px;}
+
+
+.pnl__form {width:100%; font-size:13px;}
+.pnl__frm-grp {float:left; width:50%; padding:0 0 20px 10px;}
+.pnl__frm-grp:nth-child(2n+1) {clear:left; margin:0 10px 0 -10px;}
+.pnl__frm-grp.frm-grp--wide {width:100%; padding:0 0 20px 0; margin:0;}
+
+.pnl__form label {display:block; margin:0 0 5px 0; line-height:1; font-weight:600;}
+
+.pnl__form input, .pnl__form textarea {
+	width:100%; padding:8px; margin:0; background:#f2f2f2; border:none;
+	font-family:'Open Sans', sans-serif; font-size:13px; color:#555; outline:none;
+}
+.pnl__form input:focus, .pnl__form textarea:focus {color:#000;}
+
+.pnl__form button { display:block; outline:none;
+	margin:0; padding:10px 20px; width:auto; background:#B70948; color:#fff; font-family:'Gotham'; font-weight:normal; font-size:16px; letter-spacing:1px;
+	-webkit-transition: background 0.3s, color 0.3s; transition: background 0.3s, color 0.3s;
+}
+.pnl__form button:hover {}
+
+.pnl__err-msg {font-size:13px; line-height:1.5; color:#B70948; display:none;}
+
+#pnl__sent-msg {font-size:20px; line-height:3; display:none;}
+
+@media (max-width:500px) {
+	.pnl--contact {display:none !important}
+	.pnl__tab	{right: -40px;height:35px;width:55px;}
+
+}
